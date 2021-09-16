@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>
+		Admission2
+	</title>
+	<style type="">
+		body{
+			background-image:url('C:/Users/hp/OneDrive/Desktop/html/2380.jpg');
+			background-size: auto;
+
+			background-repeat: no-repeat;
+
+
+
+		}
+		.ani2{
+			padding: 30px;
+			margin: 30px;
+			border-radius: 30px;
+			height: 150px;
+			width: 150px;
+
+			background-image:linear-gradient(#2b908f,#90ed7d);
+			animation-name: Anirudh;
+			animation-duration: 4s;
+			position: relative;
+			animation-iteration-count: infinite;
+		}
+	@keyframes Anirudh{
+		0%{left: 0px; top: 0px;}
+		10%{left: 500px; top: 0px;}
+		50%{left: 500px; top:500px;}
+		75%{left: 0px; top: 500px;}
+        100%{left: 0px; top:0px;}
+
+	}
+
+
+	</style>
+</head>
+
+<body>
+	<div>
+		<div class="ani" align="center">
+		<h1>
+			Anirudh's Page
+		</h1>
+		<br> <br>
+		<div>
+			<div class="ani2" >
+				<h2>
+					Hello World !
+				</h2>
+
+
+				
+			</div>
+		</div>
+
+
+			
+		</div>
+	</div>
+
+
+</body>
+</html>
